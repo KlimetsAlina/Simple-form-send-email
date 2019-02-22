@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Hello </title>
+
+<style>
+    body {
+    background-color: #9c27b0;
+    font-family: sans-serif;
+    text-align: center;
+    }
+    h1 {
+    color: #64ffda;
+    }
+    p {
+    color: #4D0A69;
+    }
+    input[type="submit"] {
+    background-color: #64ffda;
+    padding: 10px;
+    margin-top: 10px; 
+    }
+    </style>
+</head>
+<body>
+
+<h1> Say something </h1>
+
+<form action="send.php" method="post">
+
+<p>Пиши, что хочешь. Излей ненависть, загадай желание, сочини стих, поделись шуткой...</p>
+
+<textarea rows="5" name="message" cols="30"></textarea><br>
+<input type="submit" name="submit" value="Отправить">
+</form>
+     
+
+</body>
+</html>
